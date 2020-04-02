@@ -1,0 +1,9 @@
+{
+  "name": "luwei-wiki",
+  "version": "1.0.0",
+  "description": "芦苇科技-wiki",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
+  }
+}
