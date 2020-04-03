@@ -11,6 +11,6 @@ pages:
     paths:
       - node_modules
   tags:
-    - lw-wiki
+    - wiki
   only:
     - dev
