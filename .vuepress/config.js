@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-04-02 16:51:05
- * @LastEditTime: 2020-04-03 17:47:09
+ * @LastEditTime: 2020-04-03 18:02:48
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /luwei-wiki/.vuepress/config.js
@@ -20,23 +20,23 @@ module.exports = {
       { text: '首页', link: '/' },
       {
         text: '产品',
-        link: '/pm/',
+        link: '/docs/pm/',
       },
       {
         text: '设计',
-        link: '/designer/',
+        link: '/docs/designer/',
       },
       {
         text: '前端',
-        link: '/web/',
+        link: '/docs/web/',
       },
       {
         text: '后台',
-        link: '/servers/',
+        link: '/docs/servers/',
       },
       {
         text: '后勤',
-        link: '/logistics/',
+        link: '/docs/logistics/',
       },
       { text: '芦苇科技官网', link: 'https://www.luweitech.cn' },
     ],
@@ -44,12 +44,12 @@ module.exports = {
     sidebarDepth: 2,
     displayAllHeaders: true,
     sidebar: {
-      '/web/': [
+      '/docs/web/': [
         '',
         'web',
       ],
 
-      '/pm/': [
+      '/docs/pm/': [
         '',
         '产品原型设计规范_V1.0.202003032',
       ],
