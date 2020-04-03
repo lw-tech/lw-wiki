@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-04-02 16:51:05
- * @LastEditTime: 2020-04-03 19:18:02
+ * @LastEditTime: 2020-04-03 23:18:11
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /luwei-wiki/.vuepress/config.js
@@ -17,6 +17,10 @@ module.exports = {
 
   base: '/lw-wiki/',
   dest: './public',
+
+  head: [
+    ['link', {rel: 'shortcut icon', href: '/favicon.ico'}]
+  ],
 
   themeConfig: {
     logo: '/logo.jpg',
