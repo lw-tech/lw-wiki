@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-04-02 16:51:05
- * @LastEditTime: 2020-04-03 18:02:48
+ * @LastEditTime: 2020-04-03 19:03:06
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /luwei-wiki/.vuepress/config.js
@@ -14,6 +14,9 @@
 module.exports = {
   title: '芦苇科技',
   description: '芦苇科技',
+
+  dest: './public',
+
   themeConfig: {
     logo: '/logo.jpg',
     nav: [
