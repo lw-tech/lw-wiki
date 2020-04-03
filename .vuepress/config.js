@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-04-02 16:51:05
- * @LastEditTime: 2020-04-02 20:47:23
+ * @LastEditTime: 2020-04-03 15:30:03
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /luwei-wiki/.vuepress/config.js
@@ -14,18 +14,26 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       {
-        text: 'bar',
-        link: '/bar/',
-      },
-      {
-        text: 'foo',
-        link: '/foo/',
-      },
-      {
         text: '产品',
         link: '/pm/',
       },
-      { text: 'External', link: 'https://google.com' },
+      {
+        text: '设计',
+        link: '/designer/',
+      },
+      {
+        text: '前端',
+        link: '/web/',
+      },
+      {
+        text: '后台',
+        link: '/servers/',
+      },
+      {
+        text: '后勤',
+        link: '/logistics/',
+      },
+      { text: '芦苇科技官网', link: 'https://www.luweitech.cn' },
     ],
     // sidebar: 'auto',
     sidebar: [

@@ -1,6 +1,6 @@
 ---
 sidebar: auto
 ---
-# efef首页
+# Home
 ## efefe
 
