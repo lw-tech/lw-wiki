@@ -1,18 +1,23 @@
 /*
  * @Author: your name
  * @Date: 2020-04-02 16:51:05
- * @LastEditTime: 2020-04-03 17:28:25
+ * @LastEditTime: 2020-04-03 17:47:09
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /luwei-wiki/.vuepress/config.js
  */
+
+// 配置参考：
+// https://segmentfault.com/a/1190000020699483#item-3-2
+// https://juejin.im/post/5cd7d3286fb9a0323a01d29a#heading-15
+
 module.exports = {
   title: '芦苇科技',
   description: '芦苇科技',
   themeConfig: {
     logo: '/logo.jpg',
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '首页', link: '/' },
       {
         text: '产品',
         link: '/pm/',
@@ -35,26 +40,29 @@ module.exports = {
       },
       { text: '芦苇科技官网', link: 'https://www.luweitech.cn' },
     ],
-    // sidebar: 'auto',
+    
     sidebarDepth: 2,
     displayAllHeaders: true,
-    // sidebar: [
-    //   {
-    //     title: 'web',   // 必要的
-    //     path: '/web/',      // 可选的, 应该是一个绝对路径
-    //     collapsable: false, // 可选的, 默认值是 true,
-    //     sidebarDepth: 2,    // 可选的, 默认值是 1
-    //     children: [
-    //       '',
-    //       'web',
-    //     ]
-    //   },
-    // ],
     sidebar: {
       '/web/': [
         '',
         'web',
       ],
+
+      '/pm/': [
+        '',
+        '产品原型设计规范_V1.0.202003032',
+      ],
+
+      // '/algorithms/tree/': [{
+      //   title: '树',
+      //   collapsable: true,
+      //   sidebarDepth: 1,
+      //   children: [
+      //     '/algorithms/tree/1',
+      //     '/algorithms/tree/2'
+      //   ]
+      // }],
       
       // fallback
       '/': [
@@ -62,6 +70,7 @@ module.exports = {
       ]
     }
   },
+
   markdown: {
     lineNumbers: true, // 在每个代码块的左侧显示行号
     toc: {

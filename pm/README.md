@@ -1,6 +1,3 @@
----
-sidebar: auto
----
 # 产品
 
 [TOC]
