@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-04-02 16:51:05
- * @LastEditTime: 2020-04-29 20:11:13
+ * @LastEditTime: 2020-04-29 22:25:24
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /luwei-wiki/.vuepress/config.js
@@ -62,23 +62,17 @@ module.exports = {
         '产品原型设计规范_V1.0.202003032',
       ],
 
-      '/docs/logistics/': [
-        '',
-        'weapp-register/',
-        'weapp-register/注册邮箱',
-        'weapp-register/注册微信小程序',
-        'weapp-register/填写相关基础信息',
-      ],
-
-      // '/algorithms/tree/': [{
-      //   title: '树',
-      //   collapsable: true,
-      //   sidebarDepth: 1,
-      //   children: [
-      //     '/algorithms/tree/1',
-      //     '/algorithms/tree/2'
-      //   ]
-      // }],
+      '/docs/logistics/': [{
+        title: '微信小程序注册流程',
+        collapsable: true,
+        sidebarDepth: 1,
+        children: [
+          'weapp-register/',
+          'weapp-register/注册邮箱',
+          'weapp-register/注册微信小程序',
+          'weapp-register/完善相关信息',
+        ]
+      }],
       
       // fallback
       '/': [
