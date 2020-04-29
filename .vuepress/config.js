@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-04-02 16:51:05
- * @LastEditTime: 2020-04-03 23:18:11
+ * @LastEditTime: 2020-04-29 20:11:13
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /luwei-wiki/.vuepress/config.js
@@ -60,6 +60,14 @@ module.exports = {
       '/docs/pm/': [
         '',
         '产品原型设计规范_V1.0.202003032',
+      ],
+
+      '/docs/logistics/': [
+        '',
+        'weapp-register/',
+        'weapp-register/注册邮箱',
+        'weapp-register/注册微信小程序',
+        'weapp-register/填写相关基础信息',
       ],
 
       // '/algorithms/tree/': [{
